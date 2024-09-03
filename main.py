@@ -1,8 +1,12 @@
 import time
 from openai import OpenAI
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Enter your Assistant ID here.
-ASSISTANT_ID = "asst_xxx"
+ASSISTANT_ID = "asst_PNOK2hRahlEAFJHJKFvq6cfb"
 
 # Make sure your API key is set as an environment variable.
 client = OpenAI()

@@ -1,0 +1,12 @@
+python -m venv myenv
+
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+myenv/Scripts/activate
+pip install -r requirements.txt
+python main.py
+
+
+
+
+
+
